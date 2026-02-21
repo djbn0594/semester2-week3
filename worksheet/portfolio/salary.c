@@ -16,7 +16,7 @@
 
     // calculate the deductions and final take-home salary
    float NIcont = salary * NI;
-   float taxcont = (salary - NIcont) * tax;
+   float taxcont = (salary - NIcont - 12500) * tax;
    float takehome = salary - NIcont - taxcont;
     // Use only these print statement with appropriate formatting and variable names
     printf("Salary £%.2f",salary);
