@@ -19,10 +19,10 @@
    float taxcont = (salary - NIcont - 12500) * tax;
    float takehome = salary - NIcont - taxcont;
     // Use only these print statement with appropriate formatting and variable names
-    printf("Salary £%.2f",salary);
-    printf("NI contribution £%.2f",NIcont);
-    printf("Tax contribution £%.2f",taxcont);
-    printf("Take home salary £%.2f",takehome);
+    printf("Salary £%.2f\n",salary);
+    printf("NI contribution £%.2f\n",NIcont);
+    printf("Tax contribution £%.2f\n",taxcont);
+    printf("Take home salary £%.2f\n",takehome);
 
     return 0;
  }
